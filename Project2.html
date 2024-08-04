@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</link>
+<style>
+    .home-section {
+        font-family: "Raleway", sans-serif;
+        font-weight: 300;
+        margin: 0px;
+        padding: 0px;
+        background: url('../imeges/BG.jpg');
+        height: 1400px;
+        color: white;
+    }
+
+    .left {
+
+        color: white;
+        padding: 16px 24px;
+        position: absolute;
+        left: 2px;
+
+
+    }
+
+    .left img {
+        width: 77px;
+        mix-blend-mode: multiply;
+
+
+    }
+
+    .mid {
+
+        color: white;
+        padding: 16px 24px;
+    }
+
+    .right {
+
+
+
+
+        color: white;
+        padding: 34px 24px 20px 20px;
+        position: absolute;
+        right: 2px;
+
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(185, 129, 148);
+        position: sticky;
+
+    }
+
+    .navbar {
+        display: inline-block
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a:active {
+        text-decoration: underline;
+        color: rgb(85, 73, 82);
+    }
+
+    .quotes {
+        width: 450px;
+        height: 500px;
+        font-size: 150px;
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .about {
+        
+        background-color: azure;
+        padding-top:100px ;
+        padding-bottom: 100px;
+        
+    }
+    .about-heading{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    }
+    .about p{
+        margin :0px 110px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 18px;
+    }
+    .services h3{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-top: 10px;
+          font-size: 24px;
+    }
+    .services-content{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .services{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-color: rgb(194, 214, 236);
+    }
+    .item-header{
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <!-- start header -->
+    <div class="home-section">
+
+        <header class="header">
+            <div class="container">
+                <div class="left">
+                    <img src="../imeges/logo.jpg" alt="">
+                    <div>BeautyBlis</div>
+                </div>
+                <div class="mid">
+                    <ul class="navbar">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    &nbsp;
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    &nbsp;
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+
+            </div>
+
+        </header>
+        <!-- end header -->
+        <!-- start home -->
+        <div class="quotes">
+            Leave a little sparkle everywhere you go.
+        </div>
+    </div>
+
+
+    <!-- end home -->
+    <!-- start about-->
+    <div class="about">
+      <div class="about-heading">
+        <h3>ABOUT US</h3>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam recusandae aperiam esse reprehenderit molestias! Eligendi ipsum tempora aut explicabo quam. Laudantium dicta exercitationem aliquid libero quia accusantium, asperiores doloremque quis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore facere quos nihil necessitatibus molestiae, fuga blanditiis hic placeat deleniti nisi quas dolores. Atque omnis sequi facere molestias consectetur cumque quos. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae amet rerum ratione accusamus aut similique hic ipsa ab non quidem quisquam iure, voluptatum voluptates, ex culpa dolorum sunt quaerat veniam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint veniam vel laborum sequi cupiditate. Delectus necessitatibus hic expedita ut id, natus voluptatibus fugit, nam dicta voluptatem dolorem dolorum tempora quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nesciunt cum possimus placeat, et dolorum similique dolor corporis harum eligendi in perspiciatis reiciendis autem odio quia aliquam ducimus obcaecati repudiandae.</p>
+
+
+    </div>
+    <!-- end about -->
+    <!-- start services -->
+     <div class="services">
+        <h3>SERVICES</h3>
+        <div class="services-content">
+        <div class="Skincare">
+            <h4 class="item-header">Skincare</h4>
+            <ul>
+                <li>Moisturisers</li>
+                <li>Serum & Treatment</li>
+                <li>Eye & Lip care</li>
+                <li>Cleansers</li>
+                <li>Sun care</li>
+                <li>Toner,Essences & Mist</li>
+                
+            </ul>
+
+    
+        </div>
+        <div class="Makeup">
+            <h4 class="item-header">Makeup</h4>
+            <ul>
+                <li>Face</li>
+                <li>Eyes</li>
+                <li>Lips</li>
+                <li>Nails</li>
+                <li>Make-up tools</li>
+                <li>Brands</li>
+            </ul>
+
+        </div>
+        <div class="hair">
+            <h4 class="item-header">Hair</h4>
+            <ul>
+                <li>Shampoo</li>
+                <li>Conditioner</li>
+                <li>Stylin products</li>
+                <li>Treatments</li>
+                <li>Hair tools</li>
+                <li>Hair colour</li>
+            </ul>
+        </div>
+        <div class="kids">
+            <h4 class="item-header">Kids & Baby</h4>
+            <ul>
+                <li>Kids</li>
+                <li>Baby</li>
+                <li>Brands</li>
+            </ul>
+        </div>
+        <div class="bath">
+            <h4 class="item-header">Bath & Body</h4>
+            <ul>
+                <li>Women</li>
+                <li>Men</li>
+                <li>Brands</li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <!-- end services -->
+    <!-- start testimonials -->
+    <!-- end testimonials -->
+    <!-- start shop -->
+    <!-- end shop -->
+    <!-- start contact -->
+    <!-- end contact -->
+
+</body>
+
+</html>
